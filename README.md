@@ -1,4 +1,4 @@
-Ahoj  , short demo AWS and script in BASH , zbytek<br><br><br>
+Hi, short demo AWS and script in BASH , <br><br><br>
 
 ### Example Output
 ```
