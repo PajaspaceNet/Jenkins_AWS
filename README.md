@@ -55,34 +55,27 @@ This is a simple demonstration project to showcase the functionality of Jenkins 
 
 ---
 
-### HOW TO TEST MANUALLY 
 
 
-### How to Test the Project
+## Project Status: "STOPPED" on AWS
 
-1. **Prerequisites**:
-   - Operating System: Linux, macOS, or Windows with Bash (For Windows, use Git Bash or WSL).
-   - Git installed to clone the repository.
+### Current Status
+This project is currently **stopped (STOPPED)** on AWS to **reduce operational costs**. All related AWS resources (e.g., EC2 instances, databases, S3 storage) have been paused or scaled down.
 
-2. **Steps to Test**:
-   - Clone this repository:
-     ```bash
-     git clone https://github.com/PajaspaceNet/Jenkins_AWS.git
-     cd Jenkins_AWS
-     ```
-   - Ensure the `hello.sh` script has execution permissions:
-     ```
-     chmod +x hello.sh
-     ```
-   - Run the script:
-     ```
-     ./hello.sh
-     ```
+### Reason
+AWS charges for active resources (e.g., running EC2 instances, active RDS databases). To minimize costs, all unnecessary running services have been stopped. This decision does not impact data integrity or functionality when the project is restarted.
 
-3. **Expected Output**:
-   ```
-   Hello, World! Jenkins is working!
-   ```
+### How to Resume the Project
+If the project needs to be resumed, follow these steps:
+1. Log in to the AWS Management Console.
+2. Locate the relevant resources (e.g., EC2 instances, RDS databases).
+3. Restart the services:
+   - **EC2 Instance:** Select the instance and click **Start Instance**.   
+4. Verify that the application is functioning and accessible.
+
+### Start on Request
+If you need the project to be started, please let us know, and we will activate it for you.
+
 
 
 
