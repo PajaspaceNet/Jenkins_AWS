@@ -43,7 +43,7 @@ This is a simple demonstration project to showcase the functionality of Jenkins 
 ### How to Use
 1. Clone the repository:
    ```
-   git clone https://github.com/<your-username>/<your-repo>.git
+   git clone https://github.com/PajaspaceNet/Jenkins_AWS
    ```
 2. Make changes and push them to the repository:
    ```
@@ -67,8 +67,8 @@ This is a simple demonstration project to showcase the functionality of Jenkins 
 2. **Steps to Test**:
    - Clone this repository:
      ```bash
-     git clone https://github.com/<your-username>/<your-repo>.git
-     cd <your-repo>
+     git clone https://github.com/PajaspaceNet/Jenkins_AWS.git
+     cd Jenkins_AWS
      ```
    - Ensure the `hello.sh` script has execution permissions:
      ```
