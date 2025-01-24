@@ -55,5 +55,36 @@ This is a simple demonstration project to showcase the functionality of Jenkins 
 
 ---
 
+### HOW TO TEST MANUALLY 
+
+
+### How to Test the Project
+
+1. **Prerequisites**:
+   - Operating System: Linux, macOS, or Windows with Bash (For Windows, use Git Bash or WSL).
+   - Git installed to clone the repository.
+
+2. **Steps to Test**:
+   - Clone this repository:
+     ```bash
+     git clone https://github.com/<your-username>/<your-repo>.git
+     cd <your-repo>
+     ```
+   - Ensure the `hello.sh` script has execution permissions:
+     ```
+     chmod +x hello.sh
+     ```
+   - Run the script:
+     ```
+     ./hello.sh
+     ```
+
+3. **Expected Output**:
+   ```
+   Hello, World! Jenkins is working!
+   ```
+
+
+
 
 
