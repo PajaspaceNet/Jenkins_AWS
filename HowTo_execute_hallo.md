@@ -45,30 +45,38 @@ odemkmneme a prihlasime se do Jenkins
 2. Nastavte projekt v Jenkinsu
 
     Vytvořte nový projekt:
+   ```
         V Jenkinsu klikněte na New Item a zvolte Freestyle project.
-        Zadejte název projektu (např. RunHelloScript) a klikněte na OK.
+       Zadejte název projektu (např. RunHelloScript) a klikněte na OK.
+   ```
 
     Source Code Management (SCM):
-        Vyberte Git.
+```
+    Vyberte Git.
         Zadejte URL vašeho repozitáře (např. https://github.com/<username>/<repo>.git).
         Pokud je repozitář soukromý, přidejte přihlašovací údaje.
+```
 
     Build krok pro spuštění skriptu:
+  
         Přejděte na Build > Add build step > Execute shell.
         Zadejte následující příkaz:
-
+   
+    ```
         chmod +x hello.sh
         ./hello.sh
-
+```
     Klikněte na Save.
+```
+4. Spusťte build
 
-3. Spusťte build
-
+```
     Klikněte na Build Now v Jenkinsu.
     Přejděte na probíhající build a otevřete Console Output.
-
-4. Co byste měli vidět v Console Output
+```
+5. Co byste měli vidět v Console Output
 
 Pokud je vše správně nastaveno, uvidíte ve výstupu:
-
+```
 Hello from Jenkins!
+```
