@@ -37,21 +37,11 @@ This is a simple demonstration project to showcase the functionality of Jenkins 
 ```
 .
 ├── hello.sh  # The script that outputs a Hello, World message.
+├── HowTo   #please read
 └── README.md  # This file.
 ```
 
-### How to Use
-1. Clone the repository:
-   ```
-   git clone https://github.com/PajaspaceNet/Jenkins_AWS
-   ```
-2. Make changes and push them to the repository:
-   ```
-   git add .
-   git commit -m "Your changes"
-   git push origin main
-   ```
-3. Jenkins automatically builds and runs the updated script.
+
 
 ---
 
@@ -72,6 +62,11 @@ If the project needs to be resumed, follow these steps:
 3. Restart the services:
    - **EC2 Instance:** Select the instance and click **Start Instance**.   
 4. Verify that the application is functioning and accessible.
+
+
+
+
+   
 
 
 
