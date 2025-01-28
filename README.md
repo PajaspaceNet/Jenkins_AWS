@@ -73,8 +73,7 @@ If the project needs to be resumed, follow these steps:
    - **EC2 Instance:** Select the instance and click **Start Instance**.   
 4. Verify that the application is functioning and accessible.
 
-### Start on Request
-If you need the project to be started, please let us know, and we will activate it for you.
+
 
 
 
