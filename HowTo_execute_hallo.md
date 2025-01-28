@@ -54,7 +54,10 @@ odemkmneme a prihlasime se do Jenkins
 ```
     Vyberte Git.
         Zadejte URL vašeho repozitáře (např. https://github.com/<username>/<repo>.git).
-        Pokud je repozitář soukromý, přidejte přihlašovací údaje.
+        
+        napiste script hallo.sh
+        #!/bin/bash
+        echo "Hello, World! Jenkins is working!"
 ```
 
     Build krok pro spuštění skriptu:
@@ -78,5 +81,5 @@ odemkmneme a prihlasime se do Jenkins
 
 Pokud je vše správně nastaveno, uvidíte ve výstupu:
 ```
-Hello from Jenkins!
+"Hello, World! Jenkins is working!"
 ```
