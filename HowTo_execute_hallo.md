@@ -7,6 +7,7 @@ Máte repozitář na GitHubu.
 Git Plugin a GitHub Integration Plugin jsou nainstalované v Jenkinsu - popis nize
 GitHub token je k dispozici (pro přístup do repozitáře).
 ```
+1/
 ** V AWS ve vytvorene instanci ,se konektem do konzole **
 Docker official GPG key:
 ```
@@ -41,10 +42,7 @@ sudo docker run -p 8080:8080 -p 50000:50000 -v /home/ubuntu:/var/jenkins_home je
 nastavenime outbound rules v AWS
 odemkmneme a prihlasime se do Jenkins
    
-   
-   
-   
-   Nastavte projekt v Jenkinsu
+2. Nastavte projekt v Jenkinsu
 
     Vytvořte nový projekt:
         V Jenkinsu klikněte na New Item a zvolte Freestyle project.
@@ -56,4 +54,21 @@ odemkmneme a prihlasime se do Jenkins
         Pokud je repozitář soukromý, přidejte přihlašovací údaje.
 
     Build krok pro spuštění skriptu:
-        Přejděte na Build > Add build step > Execute shell
+        Přejděte na Build > Add build step > Execute shell.
+        Zadejte následující příkaz:
+
+        chmod +x hello.sh
+        ./hello.sh
+
+    Klikněte na Save.
+
+3. Spusťte build
+
+    Klikněte na Build Now v Jenkinsu.
+    Přejděte na probíhající build a otevřete Console Output.
+
+4. Co byste měli vidět v Console Output
+
+Pokud je vše správně nastaveno, uvidíte ve výstupu:
+
+Hello from Jenkins!
