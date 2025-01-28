@@ -2,7 +2,7 @@
 
 # Předpoklady
 
-    Jenkins je již nainstalovaný a běží.
+    Jenkins je již nainstalovaný a běží. -  popis instalace v dockeru nize
     Máte repozitář na GitHubu.
     Git Plugin a GitHub Integration Plugin jsou nainstalované v Jenkinsu.
     GitHub token je k dispozici (pro přístup do repozitáře).
