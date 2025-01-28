@@ -37,7 +37,7 @@ This is a simple demonstration project to showcase the functionality of Jenkins 
 ```
 .
 ├── hello.sh  # The script that outputs a Hello, World message.
-├── HowTo   #please read
+├── HowTo_execute_hallo.md   #please read
 └── README.md  # This file.
 ```
 
